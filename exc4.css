@@ -1,6 +1,28 @@
 h1 {
     font-family: 'La Belle Aurore', cursive;
 }
+.header{
+    background-color: rgb(211, 33, 113);
+    position: sticky;
+    top: 0px;
+    height: 50px;
+}
+
+.about-me {
+    position: absolute;
+    left: 550px;
+}
+
+.love {
+    position: absolute;
+    right: 100px;
+}
+
+.contact-me {
+    position: absolute;
+    right: 10px;
+}
+
 .image2 {
     border:2px solid pink;
 }
@@ -18,11 +40,29 @@ a:active {
     color: red;
 }
 button {
-    cursor: pointer; padding: 8px;background-color: rgb(44, 91, 144); color: white; 
+    cursor: pointer;
+    padding: 8px;
+    background-color:rgb(44, 91, 144);
+    color: white; 
+    position: sticky;
+    top: 20px;
 }
 button:hover {
     background-color: blue; color: white; 
 }
-.centerbutton {
+.center-button {
     text-align: center;
+    
 }
+footer {
+    background-color: rgb(255, 173, 223);
+    position: fixed;
+    bottom: 50px;
+    height: 50px;
+    width: 1200px;}
+
+.date {
+    position: absolute;
+    right: 10px;
+}
+    
