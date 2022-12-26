@@ -29,3 +29,13 @@ function Dark(){
         document.getElementById(`Dark-Mode`).value = `off`
     }
 }
+
+const favoriteFood = ["couscous", "salad", "pizza", "gnocchi"];
+let makeList = `<ul>`;
+for (let index = 0; index < favoriteFood.length; index++) {
+  const element = favoriteFood[index];
+  makeList += `<li>${element}</li>`;
+}
+makeList += `</ul>`;
+console.log(makeList);
+document.getElementById("my-id").outerHTML = makeList;
