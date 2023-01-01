@@ -83,5 +83,25 @@ footer {
     right: 10px;
 }
 
+#images_description {
+    display: inline-flex;
+    align-items:center;
+}
 
+.madrid {
+    width: 100px;  
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+.eiffel {
+    width: 100px;  
+    padding: 5px;
+    border-radius: 20px;
+}
+.newYork {
+    width: 100px;  
+    padding: 5px;
+    border-radius: 20px;
+}
 
