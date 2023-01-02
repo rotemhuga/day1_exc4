@@ -1,3 +1,6 @@
+* {
+    background-color: rgb(238, 191, 230);
+}
 
 h1 {
     font-family: 'La Belle Aurore', cursive;
@@ -89,19 +92,27 @@ footer {
 }
 
 .madrid {
-    width: 100px;  
+    width: 300px; 
+    /* height: 300px;  */
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 .eiffel {
-    width: 100px;  
+    width: 350px;  
+    /* height: 300px;  */
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-.newYork {
-    width: 100px;  
+.new-york {
+    width: 300px;  
+    /* height: 300px;  */
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 45px;
+}
+
+.img-container {
+    display: inline-block;
+    margin-right: 20px;
 }
 
