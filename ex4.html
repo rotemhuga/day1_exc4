@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="exc4.css"/>
 </head>
 <body>
-    <div class="container content">
+    <div class="container-content">
     <!-- <div class="header">  -->
         <!-- <span class="about-me">A bit About Me </span>
         <span class="love" id="PlacesILove" onclick="delayHandleClick()">Places I love</span>
@@ -42,27 +42,33 @@
     <h1>Rotem huga</h1>
     <h2>Im 22 years old and im living in a country side named beqoa.</h2>
    <strong>your song by Elton John -</strong> 
-    <br> And you can <span> tell </span> everybody, this is your song. <br>
-It may be quite simple but now that it's done. <br>
-I hope you don't mind, I hope don't you mind. <br>
-That I put down in words. <br>
-How wonderful life is while you're in the world. <br>
-   </p> 
+<div class = paragraph-song>
+    <p class="pargraph-song-2"> And you can tell everybody, this is your song. 
+    It may be quite simple but now that it's done. 
+    I hope you don't mind, I hope don't you mind. 
+    That I put down in words. 
+    How wonderful life is while you're in the world. 
+    </p>
+</div>
+<div id="images">
     <img src="/assets/Amalfi.jpeg" alt="Amalfi" width="250" highet="auto" class="image1"> 
-   <img src="/assets/rome.avif" alt="rome" width="250" highet="auto" class="image2"> 
-   <img src="/assets/milan.jpg" alt="milan" width="285" highet="auto">
-   <p>
-    <!-- <ul>
+   <img src="/assets/rome.avif" alt="rome" width="250" highet="auto" class="image1"> 
+   <img src="/assets/milan.jpg" alt="milan" width="285" highet="auto" class="image1" >
+</div>
+<div id="all-food-list">
+        <ul> My Favorite Food
         <li>couscous</li>
-        <li class=food2>salad</li>
+        <li>salad</li>
         <li>pizza</li >
         <li>gnocchi</li>
-    </ul> -->
+    </ul>
+</div>
+
     <div id="my-id"></div>
     <section><h1>Beqoa </h1></section>
-    <a href= "https://goo.gl/maps/aDsMFVt64wtWB4mN9" target="_blank"  >link</a>
-   </p>
-   <table border="">
+    <a href= "https://goo.gl/maps/aDsMFVt64wtWB4mN9" target="_blank" class="link" >link</a>
+<div class="table">
+    <table border="">
     <tr>
         <th bgcolor="pink">pros</th>
         <th bgcolor="pink">cons</th>
@@ -77,34 +83,48 @@ How wonderful life is while you're in the world. <br>
     </tr>
     <br>
 </table>
-<p>
-<h1>My hobbies</h1> 
-        <strong><ol> 
+</div>
+<h1>My hobbies</h1>
+<div id=hobbies-list>
+        <ol> 
         <li>traveling</li>
         <li>sea</li>
-        <li>dancging</li></strong>
-    </ol> 
-   <div class="centerbutton"> 
-    <button  type="button" > <button">click to see more</button> 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div id="images-description">
-        <!-- <img src="assets/image1_placio.jpg" alt="madrid" class="madrid">
-        <img src="assets/image2_eiffel-tower.jpg" alt="eiffel tower" class="eiffel">
-        <img src="assets/image_3_state-of-liberty.jpg" alt="state of liberty" class="newYork"> -->
-    </div>
-    <!-- <footer>
-        <div class="footer">
-            <span class="name">Rotem huga</span>
-            <span class="date">15/12/2022</span>
-        </div>
-    </footer> -->
+        <li>dancging</li>
+    </ol></div> 
+<div class="center-button"> 
+    <button  type="button" > <button">click to see more</button>
 </div>
-</p>
+<div class="all-images">
+        <p>
+        <img src="assets/image1_placio.jpg" width="350" highet="auto" class="madrid">
+        name:"Palacio Real de Madrid",<br>
+        description:"is the official residence of the Spanish royal family at the city of Madrid",<br>
+        built: "April 7, 1735",
+        </p>
+        <p>
+        <img src="assets/image2_eiffel-tower.jpg" width="420" highet="auto" class="eiffel">
+        name: "Eiffel Tower",<br>
+        description: "is a wrought-iron lattice tower on the Champ de Mars in Paris, France",<br>
+        built: "31 March 1889",<br>
+        </p>
+        <p>
+        <img src="assets/image_3_state-of-liberty.jpg" width="350" highet="auto" class="new-york">
+        name: "Statue of Liberty",<br>
+        description: "was a gift from France as a symbol of American freedom",<br>
+        built: "October 28, 1886",
+        </p>
+</div>
+    <!-- <div id="images-description">
+        <img src="assets/image1_placio.jpg" alt="madrid" class="madrid">
+        <img src="assets/image2_eiffel-tower.jpg" alt="eiffel tower" class="eiffel">
+        <img src="assets/image_3_state-of-liberty.jpg" alt="state of liberty" class="newYork">
+    </div> -->
+
+<div class="footer-div">
+    <footer>
+            <p class="name">Rotem huga</p>
+            <p class="date">15/12/2022</p>
+    </footer>
 </div>
 <script src="main.js"></script>
 </body>
